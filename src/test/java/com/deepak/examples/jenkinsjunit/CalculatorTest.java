@@ -28,7 +28,7 @@ public class CalculatorTest {
 
 	@After
 	public void afterEachTest() {
-		System.out.println("hello world");
+		System.out.printl("hello world");
 	}
 
 	@Test
@@ -65,7 +65,7 @@ public class CalculatorTest {
 	@Ignore
 	@Test
 	public void testSubstraction() {
-		int result = 10;
+		int result = 10 - 3;
 
 		assertTrue(result == 9);
 	}
