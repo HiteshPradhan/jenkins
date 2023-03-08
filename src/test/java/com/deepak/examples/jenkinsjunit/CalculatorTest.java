@@ -28,7 +28,7 @@ public class CalculatorTest {
 
 	@After
 	public void afterEachTest() {
-		System.out.printl("hello world");
+		System.out.println("hello world");
 	}
 
 	@Test
